@@ -7,12 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/type-resolver/src', $vendorDir . '/phpdocumentor/reflection-docblock/src'),
-    'pUoM\\Tests\\' => array($baseDir . '/tests'),
-    'pUoM\\' => array($baseDir . '/src'),
+    'phpCollections\\Tests\\' => array($baseDir . '/tests'),
+    'phpCollections\\' => array($baseDir . '/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
-    'Graphp\\Algorithms\\' => array($vendorDir . '/graphp/algorithms/src'),
-    'Fhaculty\\Graph\\' => array($vendorDir . '/clue/graph/src'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
 );

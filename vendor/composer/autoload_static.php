@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit4086300931c400497b66e5de724443f3
+class ComposerStaticInit19df67010934a4cabf5889810f6f1eed
 {
     public static $files = array (
         '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
@@ -14,8 +14,8 @@ class ComposerStaticInit4086300931c400497b66e5de724443f3
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
-            'pUoM\\Tests\\' => 11,
-            'pUoM\\' => 5,
+            'phpCollections\\Tests\\' => 21,
+            'phpCollections\\' => 15,
         ),
         'W' => 
         array (
@@ -24,14 +24,6 @@ class ComposerStaticInit4086300931c400497b66e5de724443f3
         'S' => 
         array (
             'Symfony\\Component\\Yaml\\' => 23,
-        ),
-        'G' => 
-        array (
-            'Graphp\\Algorithms\\' => 18,
-        ),
-        'F' => 
-        array (
-            'Fhaculty\\Graph\\' => 15,
         ),
         'D' => 
         array (
@@ -47,11 +39,11 @@ class ComposerStaticInit4086300931c400497b66e5de724443f3
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
-        'pUoM\\Tests\\' => 
+        'phpCollections\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'pUoM\\' => 
+        'phpCollections\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -62,14 +54,6 @@ class ComposerStaticInit4086300931c400497b66e5de724443f3
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
-        ),
-        'Graphp\\Algorithms\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/graphp/algorithms/src',
-        ),
-        'Fhaculty\\Graph\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/clue/graph/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
@@ -637,10 +621,10 @@ class ComposerStaticInit4086300931c400497b66e5de724443f3
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit4086300931c400497b66e5de724443f3::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit4086300931c400497b66e5de724443f3::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit4086300931c400497b66e5de724443f3::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit4086300931c400497b66e5de724443f3::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit19df67010934a4cabf5889810f6f1eed::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit19df67010934a4cabf5889810f6f1eed::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit19df67010934a4cabf5889810f6f1eed::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit19df67010934a4cabf5889810f6f1eed::$classMap;
 
         }, null, ClassLoader::class);
     }
